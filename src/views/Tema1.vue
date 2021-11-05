@@ -11,7 +11,7 @@
       .row.align-items-center
         .col-lg-7.mb-5.mb-lg-0
           .p-4
-            h6 Mercado cambiario. 
+            h3 Mercado cambiario. 
             p.mb-3 El mercado cambiario estará constituido por la totalidad de las divisas que deban ser transferidas o negociadas por conducto de los intermediarios que se autoricen en desarrollo de esta Ley. El Gobierno Nacional fijará las normas tendientes a organizar y regular el funcionamiento de este mercado. Además, establecerá las operaciones de cambio cuyo producto en moneda extranjera no deba ser transferido o negociado a través del mercado cambiario y los mecanismos que podrán utilizarse para la posesión o negociación de las divisas correspondientes en el país. 
     
             .cajon.color-custom.p-4
@@ -148,7 +148,7 @@
           td DCIN-83
           td Determina los procedimientos aplicables para cada una de las operaciones del régimen cambiario colombiano.
 
-    p.mb-3 Y en la siguiente imagen podemos observar el orden jerárquico de las normas del régimen cambiario colombiano.
+    p.mb-5 Y en la siguiente imagen podemos observar el orden jerárquico de las normas del régimen cambiario colombiano.
     
     .row.justify-content-center
       .col-lg-10
@@ -156,7 +156,7 @@
           h5 Figura 2
           span Jerarquía normas régimen cambiario colombiano
 
-    .row.justify-content-center.align-items-center.mb-3
+    .row.justify-content-center.align-items-center
         .col-lg-12.mb-5.mb-lg-8.fondo-1
           img(src="@/assets/curso/images/tema1/img_7.svg", alt="", style="width:700px; display:block; margin:0 auto;")
     
@@ -213,7 +213,7 @@
           p.mb-0 En el mercado de divisas colombiano, se encuentran dos mercados principales que son: 
           p.mb-0 El mercado cambiario también llamado mercado regulado y el mercado no regulado o no cambiario, que es normalmente conocido como el mercado libre. 
       .col-auto.mb-5.mb.onTop.order-1.order-lg-2
-        img(src="@/assets/curso/images/tema1/img_8.svg" alt='AvatarTop', style="width:320px;").m-auto
+        img(src="@/assets/curso/images/tema1/img_8.svg" alt='AvatarTop', style="width:320px;")
       
     p.mb-3 En estos mercados se realizan las operaciones de cambio que son necesarias para el envío y recepción de divisas desde o hacia Colombia.
 
@@ -237,7 +237,7 @@
     .row.align-items-center
       p.mb-5 Son los diferentes formatos que se deben utilizar al efectuar algún tipo de operación cambiaria, para informar a las entidades pertinentes sobre la transacción realizada. Para una definición más técnica, nos remitimos al capítulo IV, artículo 88 “Información Cambiaria y Otras Obligaciones”, contenido en la Resolución Externa  1 de 2018:
 
-      .row.fondo-3.mb-2.p-4(data-aos="fade-left")
+      .row.fondo-3.mb-5.p-4(data-aos="fade-left")
         .col-lg-5.mb-5.mb-lg-0
             img(src="@/assets/curso/images/tema1/img_10.svg" alt="",)
         .col-lg-7.mb-5.mb-lg-0
@@ -274,7 +274,7 @@
 
       p.mb-5 Los residentes o no residentes que realicen una operación de cambio deberán: 
 
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center
         .col-lg-6.mb-5.mb-lg-0
           img(src="@/assets/curso/images/tema1/img_12.svg" alt="", style="width:400px; display:block; margin:0 auto;")
         .col-lg-6.mb-5.mb-lg-0
@@ -313,8 +313,9 @@
 
     p.mb-3 La Dirección de Impuestos y Aduanas Nacionales, DIAN, tiene la obligación de vigilar y controlar el cumplimiento de la normatividad cambiaria en las siguientes operaciones: 
 
+  
     .jumbotron-11.p-5.mb-5
-      .row.mb-5
+      .row.justify-content-center.mb-5
         .col-md-6.col-lg.mb-5.mb-lg-0
           .tarjeta-avatar
             img(src='@/assets/curso/images/tema1/ico_11.svg' alt='AvatarTop', style="width:120px; display:block; margin:auto 0;")
@@ -561,9 +562,9 @@
       .h4 1.11 Medios de pago internacional
     .row
       p.mb-3 Para la minimización del riesgo de no pago o simplemente para establecer acuerdos en la forma de transar el dinero entre compradores y vendedores del comercio internacional, se cuenta con diferentes opciones o instrumentos bancarios que dan mayor certeza del pago derivado de la compra o venta de bienes o servicios. 
-      p.mb-3 Los medios de pago internacional más utilizados son:
+      p.mb-5 Los medios de pago internacional más utilizados son:
 
-    .row.justify-content-center.align-items-center.p-5.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center(data-aos="fade-right")
       .col-lg-6.mb-5.mb-lg-0
         img(src='@/assets/curso/images/tema1/img_21.svg' alt="", style="width:400px; display:block; margin:auto;")
       .col-lg-6.mb-5.mb-lg-0
