@@ -7,73 +7,75 @@
         span 1
       h1 Operaciones del mercado cambiario
     
-    .jumbotron.p-4.mb-2
-      .row
+    .jumbotron.mb-5
+      .row.align-items-center
         .col-lg-7.mb-5.mb-lg-0
-          h6 Mercado cambiario. 
-          p.mb-3 El mercado cambiario estará constituido por la totalidad de las divisas que deban ser transferidas o negociadas por conducto de los intermediarios que se autoricen en desarrollo de esta Ley. El Gobierno Nacional fijará las normas tendientes a organizar y regular el funcionamiento de este mercado. Además, establecerá las operaciones de cambio cuyo producto en moneda extranjera no deba ser transferido o negociado a través del mercado cambiario y los mecanismos que podrán utilizarse para la posesión o negociación de las divisas correspondientes en el país. 
-  
-          .cajon.color-custom.p-4
-            .h5 Parágrafo.
-            p.mb-0 Los ingresos de divisas por concepto de servicios prestados por residentes en el país, quedarán exentos de la obligación de ser transferidos o negociados a través de mercado cambiario.
-
-        .col-lg-5
-          img(src="@/assets/curso/images/tema1/img_1.svg", alt= "", style="width:450px; display:block; margin: 0 1.5rem;") 
+          .p-4
+            h6 Mercado cambiario. 
+            p.mb-3 El mercado cambiario estará constituido por la totalidad de las divisas que deban ser transferidas o negociadas por conducto de los intermediarios que se autoricen en desarrollo de esta Ley. El Gobierno Nacional fijará las normas tendientes a organizar y regular el funcionamiento de este mercado. Además, establecerá las operaciones de cambio cuyo producto en moneda extranjera no deba ser transferido o negociado a través del mercado cambiario y los mecanismos que podrán utilizarse para la posesión o negociación de las divisas correspondientes en el país. 
     
-    p.my-5 Y debemos tener en cuenta que en el artículo 36 de la Resolución Externa  01 de 2018 se encuentra una ampliación a la definición de Mercado Cambiario de la L ey 9 de 1991. Este artículo dice:
+            .cajon.color-custom.p-4
+              .h5 Parágrafo.
+              p.mb-0 Los ingresos de divisas por concepto de servicios prestados por residentes en el país, quedarán exentos de la obligación de ser transferidos o negociados a través de mercado cambiario.
 
-    
-    .row.justify-content-center.align-items-center(data-aos="flip-left")
-      .col-10
+        .col-lg-5.pt-4.align-self-end
+          img(src="@/assets/curso/images/tema1/img_1.svg", alt= "") 
+
+    p.mb-5 Y debemos tener en cuenta que en el artículo 36 de la Resolución Externa  01 de 2018 se encuentra una ampliación a la definición de Mercado Cambiario de la L ey 9 de 1991. Este artículo dice:
+
+    .row.justify-content-center.mb-5
+      .col-lg-10.col-xl-8
         .jumbotron-1.p-4
-          .row.my-3
-            .col-lg-5.mb-lg-0 
-              img(src="@/assets/curso/images/tema1/img_2.svg" alt="", style="width:250px; display:block; margin: 2rem 4rem;") 
-            .col-lg-7.mb-5.mb-lg-0.my-3
-                .bloque-texto-b.p-4
+          .row.align-items-center.justify-content-around
+            .col-6.col-lg-4.mb-4.mb-lg-0
+              img(src="@/assets/curso/images/tema1/img_2.svg" alt="") 
+            .col-lg-5.mb-lg-0
+                .bloque-texto-b
                   .bloque-texto-b__texto
-                    i.fas.fa-quote-left
+                    i.fas.fa-quote-left.color-1
                     p El mercado cambiario está constituido por la totalidad de las divisas que deben canalizarse obligatoriamente por conducto de los intermediarios autorizados para el efecto o a través del mecanismo de compensación previsto en esta resolución. También formarán parte del mercado cambiario las divisas que, no obstante estar exentas de esa obligación, se canalicen voluntariamente a través del mismo.
-                    i.fas.fa-quote-right
+                    i.fas.fa-quote-right.color-1
+    
 
-    p.my-5 A continuación conozcamos cuáles son las operaciones que están sujetas al régimen cambiario.
+    p.mb-5 A continuación conozcamos cuáles son las operaciones que están sujetas al régimen cambiario.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-6.col-lg-10.mb-4.mb-lg-0
-        p.BorTit <b>Figura 1</b> Operaciones sujetas al régimen cambiario
+    .row.justify-content-center
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 1 
+          span Operaciones sujetas al régimen cambiario
 
-    .row.mb-5
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
+    .row.mx-0.mb-5
+      .col-md-6.col-xl-3.px-0.mb-xl-0
+        .tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor.color-tarjeta-1
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema1/img_3.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
+            .tarjeta-flip__contenido.p-5
               p.text-center Los actos, contratos y operaciones de adquisición, tenencia o disposición de bienes o derechos en el extranjero realizados por residentes, y los actos, contratos y operaciones de adquisición, tenencia o disposición de bienes o derechos en Colombia por parte de no residentes.
 
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
+      .col-md-6.col-xl-3.px-0.mb-xl-0
+        .tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor.color-tarjeta-2
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema1/img_4.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
+            .tarjeta-flip__contenido.p-5
               p.text-center Los actos, contratos y operaciones en virtud de los cuales un residente resulte o pueda resultar acreedor o deudor de un no residente y los actos de disposición sobre los derechos u obligaciones 
 
-      .col-sm-6.col-xl-4.mb-4.mb-sm-0
-        .tarjeta.tarjeta-flip.color-tarjeta-1(@mouseover="indicadorTarjetaFlip = false")
+      .col-md-6.col-xl-3.px-0.mb-sm-0
+        .tarjeta-flip.color-tarjeta-1(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor.color-tarjeta-1
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema1/img_5.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
+            .tarjeta-flip__contenido.p-5
               p.text-center La tenencia, adquisición o disposición de activos en divisas por parte de residentes o, cuando se trate de no residentes, la tenencia, adquisición o disposición de activos en moneda legal colombiana.
 
-    .row.justify-content-center.mb-5
-      .col-sm-6.col-xl-4.mb-4.mb-sm-0
-        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
+      .col-md-6.col-xl-3.px-0.mb-sm-0
+        .tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor.color-tarjeta-2
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema1/img_6.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
+            .tarjeta-flip__contenido.p-5
               p.text-center Las entradas o salidas del país de divisas o moneda legal colombiana y de títulos representativos de las mismas.Los actos en virtud de los cuales se produzca la extinción de obligaciones entre residentes y no residentes.
 
     
@@ -97,7 +99,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/images/tema1/ico_9.svg', alt="", style="width:150px; display:block; margin:0 auto;")
+              img(src='@/assets/curso/images/tema1/ico_9.svg', alt="")
           
         .h2.text-center.text-white Artículo 7º
         p.text-center.text-white Tenencia de divisas por residentes en el país. Será libre la tenencia, posesión y negociación de divisas que no deban ser transferidas o negociadas por medio del mercado cambiario. En todo caso, dentro de la libertad autorizada, el Gobierno Nacional podrá regular estas operaciones con sujeción a los propósitos contenidos en el artículo 2º. de esta Ley.
@@ -105,7 +107,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/images/tema1/ico_10.svg', alt="", style="width:150px; display:block; margin:0 auto;")
+              img(src='@/assets/curso/images/tema1/ico_10.svg', alt="")
             br
           .h2.text-center.text-white Artículo 83o. 
           p.text-center.text-white Prohibición de operaciones en moneda extranjera en el país. Salvo lo dispuesto en normas especiales de la presente resolución, no está autorizada la realización de depósitos o de cualquier otra operación financiera en moneda extranjera o, en general, de cualquier contrato o convenio entre residentes en moneda extranjera mediante la utilización de las divisas de que trata este título.
@@ -115,7 +117,11 @@
     
     p.mb-3 El régimen cambiario colombiano está enmarcado en normas que van desde la Constitución Política de Colombia, hasta las normas que determinan los procedimientos y las obligaciones a realizar por parte de los residentes y no residentes que efectúen operaciones de cambio en el país. Y podemos encontrarlo en:
 
-    p.BorTit <b>Tabla 1 </b> Marco legal régimen cambiario colombiano
+    .row.justify-content-center
+      .col-lg-12
+        .titulo-sexto.color-acento-contenido
+          h5 Tabla 1
+          span Marco legal régimen cambiario colombiano
 
     .tabla-b.color-acento-contenido.mb-5
       .tabla-b__header
@@ -144,9 +150,11 @@
 
     p.mb-3 Y en la siguiente imagen podemos observar el orden jerárquico de las normas del régimen cambiario colombiano.
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-6.col-lg-10.mb-4.mb-lg-0
-        p.BorTit <b>Figura 2 </b> Jerarquía normas régimen cambiario colombiano
+    .row.justify-content-center
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 2
+          span Jerarquía normas régimen cambiario colombiano
 
     .row.justify-content-center.align-items-center.mb-3
         .col-lg-12.mb-5.mb-lg-8.fondo-1
@@ -162,7 +170,7 @@
     ImagenInfografica.color-secundario.mb-5
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/images/tema1/infografia.svg', alt= "",style="width:1000px; display:block; margin:0 auto;")
+          img(src='@/assets/curso/images/tema1/infografia.svg', alt= "")
           
       .tarjeta.slyder-color-1.p-3(x="56%" y="18%") 
         .h5.mb-2 
@@ -180,15 +188,15 @@
         .h5.mb-2
         p.text-white Estimular la inversión de capitales del exterior en el país. 
 
-      .tarjeta.slyder-color-1.p-3(x="88%" y="26%")
+      .tarjeta.slyder-color-1.p-3(x="90%" y="26%")
         .h5.mb-2 
         p.text-white Aplicar controles adecuados a los movimientos de capital. 
 
-      .tarjeta.slyder-color-1.p-3(x="91%" y="49%")
+      .tarjeta.slyder-color-1.p-3(x="93%" y="49%")
         .h5.mb-2
         p.text-white Propender por un nivel de reservas internacionales suficiente para permitir el curso normal de las transacciones con el exterior. 
 
-      .tarjeta.slyder-color-1.p-3(x="89%" y="71%")
+      .tarjeta.slyder-color-1.p-3(x="90%" y="71%")
         .h5.mb-2 
         p.text-white Coordinar las políticas y regulaciones cambiarias con las demás políticas macroeconómicas. Los anteriores criterios se aplicarán con arreglo a los principios de economía, celeridad, eficacia, imparcialidad, publicidad y contradicción, orientadores de las actuaciones administrativas.
 
@@ -211,27 +219,27 @@
 
     p.mb-5 Las diferentes operaciones de cambio y el mercado por el cual se deben enviar o recibir las divisas, se deberá consultar previo a la realización de la transferencia, y así cumplir con la normatividad cambiaria aplicable en cada caso.
 
-    .row.fondo-2 
-      .col-lg-4.mb-5.mb-lg-0
-          img.my-3(src="@/assets/curso/images/tema1/img_9.svg", alt="", style="width:350px; display:block; margin:0 auto;")
+    .row.justify-content-center.fondo-2 
+      .col-6.col-lg-4.mb-4.mb-lg-0
+          img(src="@/assets/curso/images/tema1/img_9.svg", alt="",)
       .col-lg-8.mb-5.mb-lg-0
-        .row.justify-content-center.align-items-center.mb-3
+        .row.justify-content-center.align-items-center
           .col-12.col-md-8.col-lg-8.col-xl-10
             .cajon.color-custom-1.p-4.mb-4
               p.mb-0 Al realizar operaciones de cambio por medio del mercado cambiario, se está cumpliendo con el procedimiento de canalización de divisas. Al realizar operaciones por el mercado libre no se están canalizando las divisas. 
 
-            p.mb-3 Cabe recordar que las operaciones de obligatoria canalización están dichas en el artículo 41 de la Resolución Externa 1 de 2018.
+            p Cabe recordar que las operaciones de obligatoria canalización están dichas en el artículo 41 de la Resolución Externa 1 de 2018.
 
     Separador 
    
     #t_1_4.titulo-segundo
       .h4 1.4 Declaraciones de cambio   
-    .row.d-none.d-lg-block  
+    .row.align-items-center
       p.mb-5 Son los diferentes formatos que se deben utilizar al efectuar algún tipo de operación cambiaria, para informar a las entidades pertinentes sobre la transacción realizada. Para una definición más técnica, nos remitimos al capítulo IV, artículo 88 “Información Cambiaria y Otras Obligaciones”, contenido en la Resolución Externa  1 de 2018:
 
-      .row.fondo-3.mb-5.p-4(data-aos="fade-left")
+      .row.fondo-3.mb-2.p-4(data-aos="fade-left")
         .col-lg-5.mb-5.mb-lg-0
-            img(src="@/assets/curso/images/tema1/img_10.svg" alt="", style="width:400px; display:block; margin:0 auto;")
+            img(src="@/assets/curso/images/tema1/img_10.svg" alt="",)
         .col-lg-7.mb-5.mb-lg-0
           .col-sm.mb-5.mb-sm-0.fondo-4.p-4
             .bloque-texto-b.p-4.mb-3
@@ -243,22 +251,9 @@
 
             p Igualmente, al realizar una operación ante los profesionales de compra y venta de divisas se diligencia una declaración de cambio (mercado libre). 
     
-    .jumbotron-9.d-block.d-lg-none
-      .col-lg-5.mb-5.mb-lg-0
-            img(src="@/assets/curso/images/tema1/img_10.svg" alt="", style="width:200px; display:block; margin: 10rem 5rem;")
-      .col-lg-7.mb-5.mb-lg-0
-        .col-sm.mb-5.mb-sm-0.fondo-4.p-4
-          .bloque-texto-b.p-4.mb-3
-              .bloque-texto-b__texto
-                i.fas.fa-quote-left
-                p <b>La declaración de cambio es la información de los datos mínimos de las operaciones de cambio canalizadas por conducto del mercado cambiario, suministrada por los residentes y no residentes que realizan las operaciones de cambio y transmitida al Banco de la República por los intermediarios del mercado cambiario y los titulares de cuentas de compensación. </b>
-                i.fas.fa-quote-right
-          p.mb-3 En estas declaraciones se deben reportar los datos mínimos que exige el Banco de la República y la Dian, contenidos en formatos establecidos por los intermediarios del mercado cambiario o en formularios del Banco de la República, que pueden tener fines estadísticos o de vigilancia y control, y en los cuales se reporta la información sobre montos, características y demás condiciones de la operación, que se celebra a través del mercado cambiario. 
-
-          p Igualmente, al realizar una operación ante los profesionales de compra y venta de divisas se diligencia una declaración de cambio (mercado libre).   
-
-    .row.d-none.d-lg-block
-      .row.fondo-5
+    
+    .row.align-items-center.mb-5
+      .row.fondo-5.mb-3
         .col-lg-8.mb-5.mb-lg-0
           .row.justify-content-center.align-items-center.mb-3
             .col-12.col-md-8.col-lg-8.col-xl-10
@@ -271,21 +266,8 @@
               
         .col-lg-4.mb-5.mb-lg-0
             img.my-3(src="@/assets/curso/images/tema1/img_11.svg", alt="", style="width:300px; display:block; margin:0 auto;")
-
-    .jumbotron-10.d-block.d-lg-none
-        .row.justify-content-center.align-items-center.mb-3
-          .col-12.col-md-8.col-lg-8.col-xl-10
-            p.mb-3 En el literal 1.1. del capítulo 1 de la Circular Reglamentaria DCIN-83 encontramos lo siguiente:
-            .bloque-texto-b.color-secundario.p-4.mb-3
-              .bloque-texto-b__texto
-                i.fas.fa-quote-left
-                p <b>…los residentes y no residentes que realicen operaciones de cambio deberán suministrar a los intermediarios del mercado cambiario (en adelante IMC) y al Banco de la República (en adelante BR) en el caso de las cuentas de compensación, la información de los datos mínimos que el BR requiera, de las operaciones que canalicen por conducto del mercado cambiario (Declaración de Cambio). </b>
-                i.fas.fa-quote-right
-            
-          .col-lg-4.mb-5.mb-lg-0
-              img.my-3(src="@/assets/curso/images/tema1/img_11.svg", alt="", style="width:300px; display:block; margin:0 auto;")
   
-    .row.d-none.d-lg-block
+    .row.justify-content-center
       p.mb-3 Con respecto a las declaraciones de cambio los residentes y no residentes que las proporciones tienen las siguientes obligaciones:
 
       p.mb-3 Obligaciones residentes y no residentes
@@ -309,34 +291,7 @@
                 img(src='@/assets/curso/images/tema1/ico_19.svg' alt="", style="width:70px; display:block; margin:auto 0;")  
             .col
               p Conservar los documentos que acrediten el monto, características y demás condiciones de la operación y el origen o destino de las divisas, según el caso, por un período igual al de caducidad o prescripción de la acción sancionatoria por infracciones al régimen cambiario. Tales documentos deberán presentarse a las entidades encargadas del control y vigilancia del cumplimiento del régimen cambiario que los requieran, o dentro de las actuaciones administrativas que se inicien para determinar la comisión de infracciones cambiarias.
-          hr.mt-5.mb-5
-        
-
-    .jumbotron-10.d-block.d-lg-none
-        p.mb-3 Con respecto a las declaraciones de cambio los residentes y no residentes que las proporciones tienen las siguientes obligaciones:
-
-        p.mb-3 Obligaciones residentes y no residentes
-
-        p.mb-5 Los residentes o no residentes que realicen una operación de cambio deberán: 
-
-        .row.justify-content-center.align-items-center.mb-5
-          .col-lg-6.mb-5.mb-lg-0
-            img(src="@/assets/curso/images/tema1/img_12.svg" alt="", style="width:400px; display:block; margin:0 auto;")
-          .col-lg-6.mb-5.mb-lg-0
-            .row.justify-content-center.align-items-center
-              .col-auto
-                figure
-                  img(src='@/assets/curso/images/tema1/ico_18.svg' alt="", style="width:70px; display:block; margin:auto 0;")    
-              .col
-                p.mb-2 Suministrar la información veraz y completa de los datos mínimos de las operaciones de cambio que se canalicen por conducto del mercado cambiario (Declaración de Cambio).
-            hr.my-5.mb-4
-            .row.justify-content-center.align-items-center
-              .col-auto
-                figure
-                  img(src='@/assets/curso/images/tema1/ico_19.svg' alt="", style="width:70px; display:block; margin:auto 0;")  
-              .col
-                p Conservar los documentos que acrediten el monto, características y demás condiciones de la operación y el origen o destino de las divisas, según el caso, por un período igual al de caducidad o prescripción de la acción sancionatoria por infracciones al régimen cambiario. Tales documentos deberán presentarse a las entidades encargadas del control y vigilancia del cumplimiento del régimen cambiario que los requieran, o dentro de las actuaciones administrativas que se inicien para determinar la comisión de infracciones cambiarias.
-            hr
+          hr
     
     Separador 
    
