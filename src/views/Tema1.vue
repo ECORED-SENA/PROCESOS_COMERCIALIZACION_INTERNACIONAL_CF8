@@ -6,40 +6,28 @@
       .titulo-principal__numero
         span 1
       h1 Operaciones del mercado cambiario
-
-    .jumbotron.p-4.mb-2.d-none.d-lg-block
-      .row.my-5
-        .col-lg-7.mb-5.mb-lg-0.my-3
+    
+    .jumbotron.p-4.mb-2
+      .row
+        .col-lg-7.mb-5.mb-lg-0
           h6 Mercado cambiario. 
           p.mb-3 El mercado cambiario estará constituido por la totalidad de las divisas que deban ser transferidas o negociadas por conducto de los intermediarios que se autoricen en desarrollo de esta Ley. El Gobierno Nacional fijará las normas tendientes a organizar y regular el funcionamiento de este mercado. Además, establecerá las operaciones de cambio cuyo producto en moneda extranjera no deba ser transferido o negociado a través del mercado cambiario y los mecanismos que podrán utilizarse para la posesión o negociación de las divisas correspondientes en el país. 
   
-          .cajon.color-custom.p-4.mb-4
-            .h5 Parágrafo.
-            p.mb-0 Los ingresos de divisas por concepto de servicios prestados por residentes en el país, quedarán exentos de la obligación de ser transferidos o negociados a través de mercado cambiario.
-
-        .col-lg-5.mb-5.mb-lg-0
-          img(src="@/assets/curso/images/tema1/img_1.svg", alt= "",style="width:450px; display:block; margin:5rem 1rem;") 
-    .row.justify-content-center.align-items-center.p-5.mb-5.d-block.d-lg-none
-      .row.mb-2
-        .col-lg-7.mb-5.mb-lg-0
-          h6 Mercado cambiario. 
-          p.mb-3  El mercado cambiario estará constituido por la totalidad de las divisas que deban ser transferidas o negociadas por conducto de los intermediarios que se autoricen en desarrollo de esta Ley. El Gobierno Nacional fijará las normas tendientes a organizar y regular el funcionamiento de este mercado. Además, establecerá las operaciones de cambio cuyo producto en moneda extranjera no deba ser transferido o negociado a través del mercado cambiario y los mecanismos que podrán utilizarse para la posesión o negociación de las divisas correspondientes en el país. 
-
           .cajon.color-custom.p-4
             .h5 Parágrafo.
             p.mb-0 Los ingresos de divisas por concepto de servicios prestados por residentes en el país, quedarán exentos de la obligación de ser transferidos o negociados a través de mercado cambiario.
 
-        .col-lg-5.mb-5.mb-lg-0
-          img(src="@/assets/curso/images/tema1/img_1.svg", alt= "",style="width:450px; display:block; margin:auto 0;") 
+        .col-lg-5
+          img(src="@/assets/curso/images/tema1/img_1.svg", alt= "", style="width:450px; display:block; margin: 0 1.5rem;") 
     
     p.my-5 Y debemos tener en cuenta que en el artículo 36 de la Resolución Externa  01 de 2018 se encuentra una ampliación a la definición de Mercado Cambiario de la L ey 9 de 1991. Este artículo dice:
 
     
     .row.justify-content-center.align-items-center(data-aos="flip-left")
       .col-10
-        .jumbotron-1.p-4.d-none.d-lg-block
+        .jumbotron-1.p-4
           .row.my-3
-            .col-lg-5.mb-5.mb-lg-0 
+            .col-lg-5.mb-lg-0 
               img(src="@/assets/curso/images/tema1/img_2.svg" alt="", style="width:250px; display:block; margin: 2rem 4rem;") 
             .col-lg-7.mb-5.mb-lg-0.my-3
                 .bloque-texto-b.p-4
@@ -47,19 +35,12 @@
                     i.fas.fa-quote-left
                     p El mercado cambiario está constituido por la totalidad de las divisas que deben canalizarse obligatoriamente por conducto de los intermediarios autorizados para el efecto o a través del mecanismo de compensación previsto en esta resolución. También formarán parte del mercado cambiario las divisas que, no obstante estar exentas de esa obligación, se canalicen voluntariamente a través del mismo.
                     i.fas.fa-quote-right
-                
-    .row.justify-content-center.align-items-center.d-block.d-lg-none
-      .col-lg-7.mb-5.mb-lg-0.my-3
-          h6 Mercado cambiario. 
-          p.mb-0 El mercado cambiario está constituido por la totalidad de las divisas que deben canalizarse obligatoriamente por conducto de los intermediarios autorizados para el efecto o a través del mecanismo de compensación previsto en esta resolución. También formarán parte del mercado cambiario las divisas que, no obstante estar exentas de esa obligación, se canalicen voluntariamente a través del mismo.
-      .col-lg-5.mb-5.mb-lg-0 
-          img(src="@/assets/curso/images/tema1/img_2.svg" alt="", style="width:250px; display:block; margin: auto 0;") 
 
     p.my-5 A continuación conozcamos cuáles son las operaciones que están sujetas al régimen cambiario.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-sm-6.col-lg-10.mb-4.mb-lg-0
-        p.BorTit Figura1 Operaciones sujetas al régimen cambiario
+        p.BorTit <b>Figura 1</b> Operaciones sujetas al régimen cambiario
 
     .row.mb-5
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
@@ -134,7 +115,7 @@
     
     p.mb-3 El régimen cambiario colombiano está enmarcado en normas que van desde la Constitución Política de Colombia, hasta las normas que determinan los procedimientos y las obligaciones a realizar por parte de los residentes y no residentes que efectúen operaciones de cambio en el país. Y podemos encontrarlo en:
 
-    p.BorTit Tabla 1 Marco legal régimen cambiario colombiano
+    p.BorTit <b>Tabla 1 </b> Marco legal régimen cambiario colombiano
 
     .tabla-b.color-acento-contenido.mb-5
       .tabla-b__header
@@ -165,7 +146,7 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-sm-6.col-lg-10.mb-4.mb-lg-0
-        p.BorTit Figura 2 Jerarquía normas régimen cambiario colombiano
+        p.BorTit <b>Figura 2 </b> Jerarquía normas régimen cambiario colombiano
 
     .row.justify-content-center.align-items-center.mb-3
         .col-lg-12.mb-5.mb-lg-8.fondo-1
@@ -223,9 +204,9 @@
         .custom_box_right    
           p.mb-0 En el mercado de divisas colombiano, se encuentran dos mercados principales que son: 
           p.mb-0 El mercado cambiario también llamado mercado regulado y el mercado no regulado o no cambiario, que es normalmente conocido como el mercado libre. 
-      .col-auto.onTop.order-1.order-lg-2
+      .col-auto.mb-5.mb.onTop.order-1.order-lg-2
         img(src="@/assets/curso/images/tema1/img_8.svg" alt='AvatarTop', style="width:320px;").m-auto
-
+      
     p.mb-3 En estos mercados se realizan las operaciones de cambio que son necesarias para el envío y recepción de divisas desde o hacia Colombia.
 
     p.mb-5 Las diferentes operaciones de cambio y el mercado por el cual se deben enviar o recibir las divisas, se deberá consultar previo a la realización de la transferencia, y así cumplir con la normatividad cambiaria aplicable en cada caso.
@@ -348,19 +329,20 @@
                   img(src='@/assets/curso/images/tema1/ico_18.svg' alt="", style="width:70px; display:block; margin:auto 0;")    
               .col
                 p.mb-2 Suministrar la información veraz y completa de los datos mínimos de las operaciones de cambio que se canalicen por conducto del mercado cambiario (Declaración de Cambio).
-            hr.mt-5.mb-4
+            hr.my-5.mb-4
             .row.justify-content-center.align-items-center
               .col-auto
                 figure
                   img(src='@/assets/curso/images/tema1/ico_19.svg' alt="", style="width:70px; display:block; margin:auto 0;")  
               .col
                 p Conservar los documentos que acrediten el monto, características y demás condiciones de la operación y el origen o destino de las divisas, según el caso, por un período igual al de caducidad o prescripción de la acción sancionatoria por infracciones al régimen cambiario. Tales documentos deberán presentarse a las entidades encargadas del control y vigilancia del cumplimiento del régimen cambiario que los requieran, o dentro de las actuaciones administrativas que se inicien para determinar la comisión de infracciones cambiarias.
-            hr.mt-5.mb-5
-
+            hr
+    
     Separador 
    
-    #t_1_5.ttulo-segundo
-      .h4 1.5 Control cambiario
+    #t_1_5.titulo-segundo
+      .h4 1.5 Control cambiario 
+    
 
     p.mb-5 Es una medida de protección que un estado realiza sobre su moneda y sus reservas internacionales. Se pueden establecer medidas restrictivas para el ingreso y la salida de las divisas del país y a su vez obligaciones de reporte de información sobre dichas operaciones.
 
@@ -565,26 +547,17 @@
     .row
       p.mb-5 Al realizar un proceso de exportación de bienes en el país, se debe presentar la información de datos mínimos (declaración de cambio) en exportaciones de bienes, la cual se encuentra establecida en el capítulo 3 de la Circular Reglamentaria  DCIN-83:
 
-    .row.d-none.d-lg-block
-      .row.justify-content-center.align-items-center.mb-5   
-          .col-4.md-3.mb-4.mb-md-0.d-flex
-              .tarjeta_Sp-13.p-4
-                p.text-center.small.text Los residentes deberán canalizar a través del mercado cambiario las divisas provenientes de sus exportaciones, incluidas las que reciba en efectivo directamente del comprador del exterior, dentro de los seis (6) meses siguientes a la fecha de su recibo, correspondientes tanto a exportaciones ya realizadas como a las recibidas en calidad de pago anticipado por futuras exportaciones de bienes.
-          .col-4.md-3.mb-4.mb-md-0.d-flex
-            .tarjeta_Sp-14.p-4
-                p.text-center.small.text Conforme a la Resolución Externa 1 de 2018 de la Junta Directiva del Banco de la República (en adelante R.E. 1/18 J.D.) los residentes deberán canalizar a través del mercado cambiario las divisas por concepto de garantías otorgadas en desarrollo de sus exportaciones. 
-          .col-4.md-3.mb-4.mb-md-0.d-flex
-              .tarjeta_Sp-15.p-4
-                p.text-center.small.text Para estos efectos, deben suministrar al IMC la información de los datos mínimos de cada operación (Declaración de Cambio) exigidos en el numeral 4.6 de este Capítulo. Cuando la operación se canalice a través de cuentas de compensación el Formulario No. 10 “Registro, Informe de Movimientos y/o Cancelación Cuenta de Compensación” hará las veces de la declaración de cambio, el cual se transmitira por el titular de la cuenta de compensación de acuerdo con los procedimientos señalados en el Capítulo 8 de esta Circular. 
-    .row.d-block.d-lg-none
-      .jumbotron-13.p-4
-        p.mb-0 Los residentes deberán canalizar a través del mercado cambiario las divisas provenientes de sus exportaciones, incluidas las que reciba en efectivo directamente del comprador del exterior, dentro de los seis (6) meses siguientes a la fecha de su recibo, correspondientes tanto a exportaciones ya realizadas como a las recibidas en calidad de pago anticipado por futuras exportaciones de bienes.
-      .jumbotron-14.p-4
-        p.mb-0 Conforme a la Resolución Externa 1 de 2018 de la Junta Directiva del Banco de la República (en adelante R.E. 1/18 J.D.) los residentes deberán canalizar a través del mercado cambiario las divisas por concepto de garantías otorgadas en desarrollo de sus exportaciones.
-      .jumbotron-15.p-4
-        p.mb-0 Para estos efectos, deben suministrar al IMC la información de los datos mínimos de cada operación (Declaración de Cambio) exigidos en el numeral 4.6 de este Capítulo. Cuando la operación se canalice a través de cuentas de compensación el Formulario No. 10 “Registro, Informe de Movimientos y/o Cancelación Cuenta de Compensación” hará las veces de la declaración de cambio, el cual se transmitirá por el titular de la cuenta de compensación de acuerdo con los procedimientos señalados en el Capítulo 8 de esta Circular. 
-
-
+    .row.justify-content-center.align-items-center.mb-5  
+        .col-lg-4.mb-3.mb-lg-0 
+            .tarjeta_Sp-13.p-4
+              p.text-center.small.text Los residentes deberán canalizar a través del mercado cambiario las divisas provenientes de sus exportaciones, incluidas las que reciba en efectivo directamente del comprador del exterior, dentro de los seis (6) meses siguientes a la fecha de su recibo, correspondientes tanto a exportaciones ya realizadas como a las recibidas en calidad de pago anticipado por futuras exportaciones de bienes.
+        .col-lg-4.mb-3.mb-lg-0
+          .tarjeta_Sp-14.p-4
+              p.text-center.small.text Conforme a la Resolución Externa 1 de 2018 de la Junta Directiva del Banco de la República (en adelante R.E. 1/18 J.D.) los residentes deberán canalizar a través del mercado cambiario las divisas por concepto de garantías otorgadas en desarrollo de sus exportaciones. 
+        .col-lg-4.mb-3.mb-lg-0
+            .tarjeta_Sp-15.p-4
+              p.text-center.small.text Para estos efectos, deben suministrar al IMC la información de los datos mínimos de cada operación (Declaración de Cambio) exigidos en el numeral 4.6 de este Capítulo. Cuando la operación se canalice a través de cuentas de compensación el Formulario No. 10 “Registro, Informe de Movimientos y/o Cancelación Cuenta de Compensación” hará las veces de la declaración de cambio, el cual se transmitira por el titular de la cuenta de compensación de acuerdo con los procedimientos señalados en el Capítulo 8 de esta Circular. 
+    
     p.mb-5 En el literal 4.6 del mismo capítulo, se encuentra la información de los datos mínimos de las operaciones de cambio por importaciones de bienes (Declaración de Cambio), que deberán ser informados ante los Intermediarios del Mercado Cambiario o directamente al Banco de la República. En estos datos se encuentra información de:
 
     .row.justify-content-center.align-items-center.mb-3(data-aos="flip-up")
