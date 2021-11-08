@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Operaciones de mercado cambiario',
+    componenteFormativo: 'Operaciones del mercado cambiario',
     descripcionCurso:
       'Para la realización de operaciones de pago desde Colombia hacia el exterior y viceversa, las personas naturales y las personas jurídicas, deben tener en cuenta que existe un régimen de cambios internacionales colombiano, para lo que se requiere conocer la normatividad cambiaria y los procedimientos aplicables en cada caso, según la operación internacional que se vaya a realizar, con el propósito de no incurrir en infracciones cambiarias.',
     imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.svg'),
@@ -66,7 +66,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.7',
             titulo: 'Declaración de datos mínimos en importaciones de bienes',
-            hhash: 't_1_7',
+            hash: 't_1_7',
           },
           {
             icono: 'far fa-file-alt',
@@ -137,27 +137,27 @@ export default {
       link: '',
     },
     {
-      referencia: 'Banco de la República. (2005). Sectores económicos.',
+      referencia: 'Banco de la República. (2005). Sectores económicos. ',
       link: 'http://www.banrepcultural.org',
     },
     {
       referencia:
-        'Cerviño, J. (2014). Marketing Internacional. Nuevas perspectivas para un mercado globalizado. ProQuest Ebook.',
+        'Cerviño, J. (2014). <i>Marketing </i> Internacional. Nuevas perspectivas para un mercado globalizado. ProQuest Ebook.',
     },
     {
       referencia:
-        'Banco de la República de Colombia. Compendio actualizado de la Circular Reglamentaria DCIN-83 vigente hasta el 31 de agosto de 2021.',
+        'Banco de la República de Colombia. Compendio actualizado de la Circular Reglamentaria DCIN-83 vigente hasta el 31 de agosto de 2021. ',
       link: 'https://www.banrep.gov.co/es/compendio-dcin83',
     },
     {
       referencia:
-        'Maigushca Olano, Ana Fernanda, Nuevo Marco Normativo para las operaciones del Mercado Cambiario.',
+        'Maigushca Olano, Ana Fernanda, Nuevo Marco Normativo para las operaciones del Mercado Cambiario. ',
       link:
         'https://www.banrep.gov.co/es/publicaciones/documento-tecnico-nuevo-marco-normativo-para-las-operaciones-del-mercado-cambiario',
     },
     {
       referencia:
-        'Compendio de Resolución Externa No. 1 DE 2018 (mayo 25) de la JDBR.',
+        'Compendio de Resolución Externa No. 1 DE 2018 (mayo 25) de la JDBR. ',
       link:
         'https://www.banrep.gov.co/sites/default/files/reglamentacion/compendio-res-ext-1-de-2018.pdf',
     },
@@ -173,13 +173,13 @@ export default {
     },
     {
       referencia:
-        'Uribe, J.D. (2010) “10 Years of Flexible Inflation Targeting in Colombia” ',
+        'Uribe, J.D. (2010) <i>“10 Years of Flexible Inflation Targeting in Colombia” </i>',
       link:
         'https://www.banrep.gov.co/sites/default/files/publicaciones/archivos/jdu_abr_2010_0.pdf',
     },
     {
       referencia:
-        'Urrutia, M. y Fernández, C. (2004) “Política monetaria expansiva en épocas de crisis: El caso colombiano en el siglo XX. Banco de la República.',
+        'Urrutia, M. y Fernández, C. (2004) “Política monetaria expansiva en épocas de crisis: El caso colombiano en el siglo XX. Banco de la República. ',
       link:
         'https://www.banrep.gov.co/sites/default/files/publicaciones/archivos/Politica-monetaria.pdf',
     },
@@ -188,7 +188,7 @@ export default {
     {
       termino: 'Canalización',
       significado:
-        'Negociación o transferencia de divisas en el mercado cambiario (IMC o cuentas de compensación). Banco de La República (2020). Conceptos Generales..',
+        'Negociación o transferencia de divisas en el mercado cambiario (IMC o cuentas de compensación). Banco de La República (2020). Conceptos Generales.',
     },
     {
       termino: 'Cuentas de compensación',
@@ -208,7 +208,7 @@ export default {
     {
       termino: 'Exportaciones de bienes',
       significado:
-        'Es la salida de mercancías del territorio aduanero nacional con destino a otro país (Artículo 3, Decreto 1165 de 2019). También se considera exportación, además de las operaciones expresamente consagradas como tales en dicho decreto, la salida de mercancías a una zona franca y a un depósito franco. Independientemente de la regulación aduanera, el régimen cambiario considera estas últimas como operaciones internas, cuando han sido realizadas entre residentes, dado que los usuarios de zona franca están sometidos a los mismos términos y condiciones aplicables a los residentes en sus operaciones de cambio.En adición a lo anterior, las operaciones de salida de mercancía desde zona franca al resto del mundo, si bien no son consideradas exportaciones de bienes, para efectos cambiarios se asimilan a estas; por tanto, su pago deberá efectuarse en el mercado cambiario, con las mismas reglas de las exportaciones de bienes. Banco de La República (2020). Conceptos Generales.',
+        'Es la salida de mercancías del territorio aduanero nacional con destino a otro país (Artículo 3, Decreto 1165 de 2019). También se considera exportación, además de las operaciones expresamente consagradas como tales en dicho decreto, la salida de mercancías a una zona franca y a un depósito franco. Independientemente de la regulación aduanera, el régimen cambiario considera estas últimas como operaciones internas, cuando han sido realizadas entre residentes, dado que los usuarios de zona franca están sometidos a los mismos términos y condiciones aplicables a los residentes en sus operaciones de cambio. En adición a lo anterior, las operaciones de salida de mercancía desde zona franca al resto del mundo, si bien no son consideradas exportaciones de bienes, para efectos cambiarios se asimilan a estas; por tanto, su pago deberá efectuarse en el mercado cambiario, con las mismas reglas de las exportaciones de bienes. Banco de La República (2020). Conceptos Generales.',
     },
     {
       termino: 'Giro',
@@ -218,15 +218,20 @@ export default {
     {
       termino: 'Importaciones de bienes',
       significado:
-        'es la introducción de mercancías de procedencia extranjera al territorio aduanero nacional (artículo 3, Decreto 1165 de 2019). También, se considera importación, la introducción de mercancías procedentes de Zona Franca, o de un depósito franco al resto del territorio aduanero nacional. Independientemente de la regulación aduanera, el régimen cambiario considera estas últimas como operaciones internas, cuando han sido realizadas entre residentes, dado que los usuarios de zona franca están sometidos a los mismos términos y condiciones aplicables a los residentes en sus operaciones de cambio.En adición a lo anterior, las operaciones de introducción de mercancía a zona franca desde el resto del mundo, si bien no son consideradas importaciones de bienes, para efectos cambiarios se asimilan a estas; por tanto, su pago deberá efectuarse en el mercado cambiario, con las mismas reglas de las importaciones de bienes. Banco de La República (2020). Conceptos Generales.',
+        'es la introducción de mercancías de procedencia extranjera al territorio aduanero nacional (artículo 3, Decreto 1165 de 2019). También, se considera importación, la introducción de mercancías procedentes de Zona Franca, o de un depósito franco al resto del territorio aduanero nacional. Independientemente de la regulación aduanera, el régimen cambiario considera estas últimas como operaciones internas, cuando han sido realizadas entre residentes, dado que los usuarios de zona franca están sometidos a los mismos términos y condiciones aplicables a los residentes en sus operaciones de cambio. En adición a lo anterior, las operaciones de introducción de mercancía a zona franca desde el resto del mundo, si bien no son consideradas importaciones de bienes, para efectos cambiarios se asimilan a estas; por tanto, su pago deberá efectuarse en el mercado cambiario, con las mismas reglas de las importaciones de bienes. Banco de La República (2020). Conceptos Generales.',
     },
     {
-      termino: 'Intermediarios del mercado cambiario (IMC)',
+      termino: 'Intermediarios del Mercado Cambiario (IMC)',
       significado:
         'Son entidades vigiladas por la Superintendencia Financiera de Colombia, a través de las cuales se canalizan operaciones de cambio de obligatoria o voluntaria canalización. Son intermediarios del mercado cambiario los establecimientos bancarios, las corporaciones financieras, las compañías de financiamiento, la Financiera de Desarrollo Nacional S.A. (FDN), el Banco de Comercio Exterior de Colombia S. A. (BANCOLDEX), las cooperativas financieras, las sociedades comisionistas de bolsa de valores, las sociedades de intermediación cambiaria y de servicios financieros especiales (SICSFE), las sociedades especializadas en depósitos y pagos electrónicos (SEDPE), la Financiera de Desarrollo Territorial (FINDETER), el Fondo para el Financiamiento del Sector Agropecuario (FINAGRO), El Instituto Colombiano de Crédito Educativo y Estudios Técnicos en el Exterior (ICETEX), la Empresa Nacional Promotora del Desarrollo Territorial (en territorio) y el Fondo Nacional del Ahorro (FNA).  Banco de La República (2020). Conceptos Generales.',
     },
     {
       termino: 'Mercado cambiario',
+      significado:
+        'Está constituido por la totalidad de las divisas de las operaciones de cambio que obligatoria o voluntariamente se negocien o transfieran por conducto de los Intermediarios del Mercado Cambiario o de cuentas de compensación. Banco de La República (2020). Conceptos Generales.',
+    },
+    {
+      termino: 'Monetización',
       significado:
         'Es la venta de divisas por moneda legal colombiana, efectuada con los IMC. Se encuentra presente en operaciones de ingreso de divisas, como, por ejemplo: exportación de bienes, inversión extranjera, endeudamiento externo, entre otras. República (2020). Conceptos Generales.',
     },
@@ -238,7 +243,7 @@ export default {
     {
       termino: 'Operaciones de cambio',
       significado:
-        'Son aquellas comprendidas dentro de las categorías señaladas en el artículo 4 de la Ley 9 de 1991 y el Artículo 2.17.1.1 del Decreto 1068 de 2015. Banco de La República (2020). Conceptos Generales.',
+        'Son aquellas comprendidas dentro de las categorías señaladas en el artículo 4 de la Ley 9 de 1991 y el artículo 2.17.1.1 del Decreto 1068 de 2015. Banco de La República (2020). Conceptos Generales.',
     },
     {
       termino: 'Operaciones internas',
@@ -264,56 +269,56 @@ export default {
   complementario: [
     {
       texto:
-        'Constitución Política de Colombia - Banco de la República de Colombia. ',
-      tipo: 'PDF',
+        'Banco de la República de Colombia https://www.banrep.gov.co/sites/default/files/paginas/cp91.pdf',
+      tipo: 'Pdf',
       link: 'https://www.banrep.gov.co/sites/default/files/paginas/cp91.pdf ',
     },
     {
       texto:
-        'Ley Marco de Cambios Internacionales - Banco de la República de Colombia. ',
-      tipo: 'PDF',
+        'Banco de la República de Colombia https://www.banrep.gov.co/sites/default/files/paginas/LEY09DE1991CONHIPERVINCULOS-1.pdf ',
+      tipo: 'Pdf',
       link:
         'https://www.banrep.gov.co/sites/default/files/paginas/LEY09DE1991CONHIPERVINCULOS-1.pdf',
     },
     {
-      texto: 'Decreto 119 de 2017 - Banco de la República de Colombia.',
-      tipo: 'PDF',
+      texto:
+        'Banco de la República de Colombia. https://www.banrep.gov.co/sites/default/files/reglamentacion/archivos/decreto119.pdf',
+      tipo: 'Pdf',
       link:
         'https://www.banrep.gov.co/sites/default/files/reglamentacion/archivos/decreto119.pdf',
     },
     {
       texto:
-        'Resolución Externa 1 de 2018 - Banco de la República de Colombia. ',
-      tipo: 'PDF',
+        'Banco de la República de Colombia. https://www.banrep.gov.co/sites/default/files/reglamentacion/compendio-res-ext-1-de-2018.pdf ',
+      tipo: 'Pdf',
       link:
         'https://www.banrep.gov.co/sites/default/files/reglamentacion/compendio-res-ext-1-de-2018.pdf',
     },
     {
       texto:
-        'Circular Reglamentaria DCIN-83 - Banco de la República de Colombia.',
-      tipo: 'PDF',
+        'Banco de la República de Colombia.  https://www.banrep.gov.co/es/compendio-dcin83 ',
+      tipo: 'Pdf',
       link: 'https://www.banrep.gov.co/es/compendio-dcin83',
     },
     {
-      texto: 'Decreto 2245 de 2011 - Juriscol',
-      tipo: 'Pagina web',
+      texto:
+        'Juriscol https://www.suin-juriscol.gov.co/viewDocument.asp?id=1424757',
+      tipo: 'Página web',
       link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=1424757',
     },
     {
       texto:
-        'Decreto 390 del 07 de marzo 2016 Nueva Regulación Aduanera - Decreto 390 DE 2016 [Ministerio de Comercio, Industria y Turismo]. Por el cual se establece la regulación aduanera. 07 de marzo de 2016  ',
+        'Decreto 390 DE 2016 [Ministerio de Comercio, Industria y Turismo]. Por el cual se establece la regulación aduanera. 07 de marzo de 2016',
       tipo: 'Presentación',
       descarga: 'downloads/Anexo_1.pdf',
     },
     {
-      texto:
-        'Formulario N° 1 - Declaración de cambio por importación de bienes - (Banco de la República, 2021)',
+      texto: '(Banco de la República, 2021)',
       tipo: 'Formulario',
       link: 'downloads/Anexo_2.pdf',
     },
     {
-      texto:
-        'Formulario N° 2 - Declaración de cambio por exportación de bienes - Banco de la República, 2021)',
+      texto: '(Banco de la República, 2021)',
       tipo: 'Formulario',
       link: 'downloads/Anexo_3.pdf',
     },
@@ -349,6 +354,12 @@ export default {
         cargo: 'Diseñadora instruccional',
         centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
       },
+      {
+        nombre: 'Jhana Johanna Bustillo Ardila',
+        cargo: 'Revisión de estilo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
     ],
     desarrolloProducto: [
       {
@@ -375,19 +386,13 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
         nombre: 'Andrés Mauricio Santaella ochoa',
         cargo: 'Soporte front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

@@ -11,7 +11,7 @@
       .row.align-items-center
         .col-lg-7.mb-5.mb-lg-0
           .p-4
-            h3 Mercado cambiario. 
+            h5 Mercado cambiario
             p.mb-3 El mercado cambiario estará constituido por la totalidad de las divisas que deban ser transferidas o negociadas por conducto de los intermediarios que se autoricen en desarrollo de esta Ley. El Gobierno Nacional fijará las normas tendientes a organizar y regular el funcionamiento de este mercado. Además, establecerá las operaciones de cambio cuyo producto en moneda extranjera no deba ser transferido o negociado a través del mercado cambiario y los mecanismos que podrán utilizarse para la posesión o negociación de las divisas correspondientes en el país. 
     
             .cajon.color-custom.p-4
@@ -21,7 +21,7 @@
         .col-lg-5.pt-4.align-self-end
           img(src="@/assets/curso/images/tema1/img_1.svg", alt= "") 
 
-    p.mb-5 Y debemos tener en cuenta que en el artículo 36 de la Resolución Externa  01 de 2018 se encuentra una ampliación a la definición de Mercado Cambiario de la L ey 9 de 1991. Este artículo dice:
+    p.mb-5 Y debemos tener en cuenta que en el artículo 36 de la Resolución Externa  01 de 2018 se encuentra una ampliación a la definición de Mercado Cambiario de la Ley 9 de 1991. Este artículo dice:
 
     .row.justify-content-center.mb-5
       .col-lg-10.col-xl-8
@@ -40,11 +40,13 @@
     p.mb-5 A continuación conozcamos cuáles son las operaciones que están sujetas al régimen cambiario.
 
     .row.justify-content-center
-      .col-lg-10
+      .col-lg-10.mb-3
         .titulo-sexto.color-acento-contenido
           h5 Figura 1 
+          br
           span Operaciones sujetas al régimen cambiario
 
+    p.mb-5 El Gobierno Nacional determinará las distintas operaciones de cambio que estarán sujetas a lo previsto en esta ley, con base en ls siguientes categorias (Artículo 4° Ley 9 de 1991) 
     .row.mx-0.mb-5
       .col-md-6.col-xl-3.px-0.mb-xl-0
         .tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
@@ -60,7 +62,7 @@
           .tarjeta-flip__contenedor.color-tarjeta-2
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/images/tema1/img_4.svg')})`}")
             .tarjeta-flip__contenido.p-5
-              p.text-center Los actos, contratos y operaciones en virtud de los cuales un residente resulte o pueda resultar acreedor o deudor de un no residente y los actos de disposición sobre los derechos u obligaciones 
+              p.text-center Los actos, contratos y operaciones en virtud de los cuales un residente resulte o pueda resultar acreedor o deudor de un no residente y los actos de disposición sobre los derechos u obligaciones derivados de aquellos.
 
       .col-md-6.col-xl-3.px-0.mb-sm-0
         .tarjeta-flip.color-tarjeta-1(@mouseover="indicadorTarjetaFlip = false")
@@ -109,8 +111,8 @@
             figure
               img(src='@/assets/curso/images/tema1/ico_10.svg', alt="")
             br
-          .h2.text-center.text-white Artículo 83o. 
-          p.text-center.text-white Prohibición de operaciones en moneda extranjera en el país. Salvo lo dispuesto en normas especiales de la presente resolución, no está autorizada la realización de depósitos o de cualquier otra operación financiera en moneda extranjera o, en general, de cualquier contrato o convenio entre residentes en moneda extranjera mediante la utilización de las divisas de que trata este título.
+          .h2.text-center.text-white Artículo 83º
+          p.text-center.text-white PROHIBICIÓN DE OPERACIONES EN MONEDA EXTRANJERA en el país. Salvo lo dispuesto en normas especiales de la presente resolución, no está autorizada la realización de depósitos o de cualquier otra operación financiera en moneda extranjera o, en general, de cualquier contrato o convenio entre residentes en moneda extranjera mediante la utilización de las divisas de que trata este título.
 
     #t_1_1.titulo-segundo
       .h4 1.1  Marco legal
@@ -121,6 +123,7 @@
       .col-lg-12
         .titulo-sexto.color-acento-contenido
           h5 Tabla 1
+          br
           span Marco legal régimen cambiario colombiano
 
     .tabla-b.color-acento-contenido.mb-5
@@ -210,7 +213,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg.order-2.order-lg-1
         .custom_box_right    
-          p.mb-0 En el mercado de divisas colombiano, se encuentran dos mercados principales que son: 
+          p.mb-0 <b>En el mercado de divisas colombiano, se encuentran dos mercados principales que son: </b>
           p.mb-0 El mercado cambiario también llamado mercado regulado y el mercado no regulado o no cambiario, que es normalmente conocido como el mercado libre. 
       .col-auto.mb-5.mb.onTop.order-1.order-lg-2
         img(src="@/assets/curso/images/tema1/img_8.svg" alt='AvatarTop', style="width:320px;")
@@ -270,7 +273,7 @@
     .row.justify-content-center
       p.mb-3 Con respecto a las declaraciones de cambio los residentes y no residentes que las proporciones tienen las siguientes obligaciones:
 
-      p.mb-3 Obligaciones residentes y no residentes
+      p.mb-3 <b> Obligaciones residentes y no residentes</b>
 
       p.mb-5 Los residentes o no residentes que realicen una operación de cambio deberán: 
 
@@ -322,7 +325,7 @@
             
             .tarjeta.color-secundario
               .text-white.p-4
-                p.text-center <b>Importaciones y exportaciones de bienes y servicios</b>
+                p.text-center <b>Importaciones y exportaciones de bienes y servicios.</b>
 
         .col-md-6.col-lg.mb-5.mb-lg-0
           .tarjeta-avatar
@@ -330,7 +333,7 @@
           
             .tarjeta.color-secundario
               .text-white.p-4
-                p.text-center <b>Gastos asociados a las importaciones y exportaciones de bienes y servicios</b>
+                p.text-center <b>Gastos asociados a las importaciones y exportaciones de bienes y servicios.</b>
         .col-md-6.col-lg.mb-5.mb-lg-0
           .tarjeta-avatar
             img(src='@/assets/curso/images/tema1/ico_13.svg' alt='AvatarTop', style="width:120px; display:block; margin:auto 0;")
@@ -385,23 +388,23 @@
     #t_1_6.titulo-segundo
       .h4 1.6 Régimen sancionatorio cambiario 
   
-    p.mb-3 El régimen sancionatorio cambiario en Colombia está establecido por lo dispuesto en el D ecreto 2245 de 2011 y las actuaciones administrativas del mismo se encuentran bajo responsabilidad de la DIAN. En el artículo 2 de este decreto, se establece la definición de Infracción Cambiaria:
+    p.mb-3 El régimen sancionatorio cambiario en Colombia está establecido por lo dispuesto en el Decreto 2245 de 2011 y las actuaciones administrativas del mismo se encuentran bajo responsabilidad de la DIAN. En el artículo 2 de este decreto, se establece la definición de Infracción Cambiaria:
 
     PasosA.color-acento-botones.mb-5(tipo="n")
       div
-        h3 Artículo 2°. Infracción cambiaria
+        h5 Artículo 2°. Infracción cambiaria
         p La infracción cambiaria es una contravención administrativa de las disposiciones constitutivas del régimen cambiario vigentes al momento de la transgresión, a la cual corresponde una sanción cuyas finalidades son el cumplimiento de tales disposiciones y la protección del orden público económico. 
 
       div
-        h3 Artículo 3° 
-        p.mb-3 Se establece la forma de liquidar el valor de la sanción según la operación cambiaria que es objeto de infracción
+        h5 Artículo 3° 
+        p.mb-3 Se establece la forma de liquidar el valor de la sanción según la operación cambiaria que es objeto de infracción.
 
-        p.mb-3 Las sanciones por infracciones cambiarias que son competencia de la DIAN pueden ser determinadas tanto en Unidades de Valor Tributario (U.V.T) o en porcentajes (%) sobre el monto de la operación realizada, 
+        p.mb-3 Las sanciones por infracciones cambiarias que son competencia de la DIAN pueden ser determinadas tanto en Unidades de Valor Tributario (U.V.T) o en porcentajes (%) sobre el monto de la operación. realizada, 
 
         p.mb-3 Las sanciones deberán ser pagadas en moneda legal colombiana y en caso de que la operación esté denominada en divisas, se utilizará la Tasa Representativa del Mercado (TRM) certificada y publicada por la Superintendencia Financiera de Colombia, para la fecha de ocurrencia del hecho constitutivo de infracción.
 
       div
-        h3 Artículo 3° Sanción. 
+        h5 Artículo 3°. Sanción
         p Las personas naturales o jurídicas y demás entidades asimiladas a estas que infrinjan el régimen cambiario respecto de operaciones y obligaciones cuya vigilancia y control sea de competencia de la Dirección de Impuestos y Aduanas Nacionales, serán sancionadas con la imposición de multa…  
 
     p.mb-5 Los aspectos sobre los cuales el régimen sancionatorio cambiario tiene autoridad de emitir sanción son los siguientes:
@@ -468,7 +471,7 @@
       .col-lg-8.mb-5.mb-lg-0
             .bloque-texto-b.color-secundario.p-4.mb-3
               .bloque-texto-b__texto
-                i.fas.fa-quote-left
+                i.fas.fa-quote-left.color-1
 
                 p.mb-3  Artículo 5°. Prescripción de la acción sancionatoria. La imposición de sanciones cambiarias requiere la formulación previa de un acto de formulación de cargos a los presuntos infractores, el cual deberá notificarse dentro de los cinco (5) años siguientes a la fecha en que ocurrieron los hechos constitutivos de infracción. 
                 br
@@ -478,9 +481,9 @@
                 br
                 p La prescripción deberá decretarse de oficio o a solicitud del interesado.  
 
-                i.fas.fa-quote-right
+                i.fas.fa-quote-right.color-1
               .bloque-texto-d__autor
-                .h6.mb-0 artículo 5 del Decreto  2245 de 2011
+                .h6.mb-0 
           
     Separador 
   
@@ -499,7 +502,7 @@
     Separador 
   
     #t_1_8.titulo-segundo
-      .h4 1.8 Declaración de datos mínimos en importaciones de bienes 
+      .h4 1.8 Declaración de datos mínimos en exportaciones de bienes 
     .row
       p.mb-5 Al realizar un proceso de exportación de bienes en el país, se debe presentar la información de datos mínimos (declaración de cambio) en exportaciones de bienes, la cual se encuentra establecida en el capítulo 3 de la Circular Reglamentaria  DCIN-83:
 
@@ -568,13 +571,13 @@
       .col-lg-6.mb-5.mb-lg-0
         img(src='@/assets/curso/images/tema1/img_21.svg' alt="", style="width:400px; display:block; margin:auto;")
       .col-lg-6.mb-5.mb-lg-0
-        LineaTiempoD.color-line-time.p-4
+        LineaTiempoD.color-primario.p-4
           p.text-small(numero="1" titulo="Giros internacionales") <b>Giro directo:</b> es la compra o reintegro de divisas, es decir, la venta de moneda extranjera, que es recibida por el residente en cheque, transferencia o efectivo, por la prestación de un servicio o la comercialización de un bien <br><b>Giro financiado:</b> se efectúa el pago al beneficiario con sus propios recursos y procede a otorgar y contabilizar una financiación en Moneda Extranjera al cliente ordenante. 
           
           p.text-small(numero="2" titulo="Cobranza documentaria") Sistema de pago internacional que consiste en que un banco local recibe ( o envía) de un banco corresponsal del exterior una serie de documentos como letras de cambio o pagarés, notas promisorias o documentos similares, acompañados de documentos comerciales tales como facturas comerciales, documentos de transporte, listas de empaque, certificados de origen y otros, con instrucciones precisas de efectuar una gestión de cobro mediante la presentación de los documentos a un deudor o girado (importador), de entregarlos al deudor contra pago o aceptación de una letra de cambio o pagaré y de situar las divisas producto de la gestión de cobro en el banco corresponsal, mediante el otorgamiento de un crédito al girado (nuestro cliente). <br>Contra entrega de los documentos, el cliente autoriza debitar su cuenta corriente y presenta los documentos para pagar la cobranza. 
-          p.text-small(numero="3" titulo="Cartas de crédito") También llamado crédito documentario (CD, Letter of Credit -L/C-), es un convenio en virtud del cual un banco, actuando a petición de un importador y de conformidad con sus instrucciones, se compromete a efectuar un pago a un exportador contra presentación de una serie de documentos exigidos dentro de un tiempo límite especificado, siempre y cuando se hayan cumplido los términos y las condiciones del crédito.
+          p.text-small(numero="3" titulo="Cartas de crédito") También llamado crédito documentario (CD, <i>Letter of Credit -L/C-) </i>, es un convenio en virtud del cual un banco, actuando a petición de un importador y de conformidad con sus instrucciones, se compromete a efectuar un pago a un exportador contra presentación de una serie de documentos exigidos dentro de un tiempo límite especificado, siempre y cuando se hayan cumplido los términos y las condiciones del crédito.
           
-          p.text-small(numero="4" titulo="Tipos de cartas de Crédito") <b>Confirmada:</b> una carta de crédito es considerada confirmada cuando el banco emisor y el banco receptor del crédito documentario extienden su compromiso en firme de pagar al beneficiario siempre y cuando este cumpla totalmente con los términos y condiciones estipulados en la carta de crédito. <br> <b>Carta de crédito a la vista o a plazo:</b> la carta de crédito puede disponer el pago a la vista (inmediato) o el pago en una fecha venidera (crédito mediante letra a plazo). <br> <b>Stand by: </b>la carta de crédito Stand by o de Garantía se usa en caso del incumplimiento de algún contrato de préstamo u otro tipo de contratos vinculados con prestaciones de servicios diversos como pueden ser: oferta en licitaciones internacionales, mantenimiento de precios, provisión de obras. Como se ve, son de naturaleza ‘contingente’
+          p.text-small(numero="4" titulo="Tipos de cartas de Crédito") <b>Confirmada:</b> una carta de crédito es considerada confirmada cuando el banco emisor y el banco receptor del crédito documentario extienden su compromiso en firme de pagar al beneficiario siempre y cuando este cumpla totalmente con los términos y condiciones estipulados en la carta de crédito. <br> <b>Carta de crédito a la vista o a plazo:</b> la carta de crédito puede disponer el pago a la vista (inmediato) o el pago en una fecha venidera (crédito mediante letra a plazo). <br> <b> <i> Stand by: </i> </b> la carta de crédito <i>Stand by</i> o de Garantía se usa en caso del incumplimiento de algún contrato de préstamo u otro tipo de contratos vinculados con prestaciones de servicios diversos como pueden ser: oferta en licitaciones internacionales, mantenimiento de precios, provisión de obras. Como se ve, son de naturaleza ‘contingente’.
 
           
 
@@ -638,13 +641,13 @@ export default {
       {
         titulo: '',
         texto:
-          'Los residentes deberán canalizar a través del mercado cambiario los pagos para cancelar el valor de sus importaciones. Para estos efectos, deben suministrar al IMC la información de los datos mínimos (Declaración de Cambio) de cada operación exigida en el numeral 3.5 de este Capítulo. Cuando laoperación se canalice a través de cuentas de compensación el Formulario No. 10 “Registro, Informe de Movimientos y/o Cancelación Cuenta de Compensación” hará las veces de la declaración de cambio, el cual se transmitirá por el titular de la cuenta de compensación de acuerdo con los procedimientos señalados en el Capítulo 8 de esta Circular.',
+          'Los residentes deberán canalizar a través del mercado cambiario los pagos para cancelar el valor de sus importaciones. Para estos efectos, deben suministrar al IMC la información de los datos mínimos (Declaración de Cambio) de cada operación exigida en el numeral 3.5 de este Capítulo. Cuando la operación se canalice a través de cuentas de compensación el Formulario No. 10 “Registro, Informe de Movimientos y/o Cancelación Cuenta de Compensación” hará las veces de la declaración de cambio, el cual se transmitirá por el titular de la cuenta de compensación de acuerdo con los procedimientos señalados en el Capítulo 8 de esta Circular.',
         imagen: require('@/assets/curso/images/tema1/img_15.png'),
       },
       {
         titulo: '',
         texto:
-          'Las divisas para el pago de la importación deberán ser canalizadas por quien efectuó la importación de bienes, y el pago deberá ser efectuado directamente al acreedor, su cesionario o a centros o personas que adelanten en el exterior la gestión de recaudo y/o pago internacional, se trate de residentes o no residentes. Los residentes no podrán canalizar pagos de importaciones que hayan sido realizadas por otros.Los documentos aduaneros deberán conservarse como soporte de la operación para cuando sean requeridos por las autoridades de control y vigilancia',
+          'Las divisas para el pago de la importación deberán ser canalizadas por quien efectuó la importación de bienes, y el pago deberá ser efectuado directamente al acreedor, su cesionario o a centros o personas que adelanten en el exterior la gestión de recaudo y/o pago internacional, se trate de residentes o no residentes. Los residentes no podrán canalizar pagos de importaciones que hayan sido realizadas por otros. Los documentos aduaneros deberán conservarse como soporte de la operación para cuando sean requeridos por las autoridades de control y vigilancia',
         imagen: require('@/assets/curso/images/tema1/img_16.png'),
       },
     ],
