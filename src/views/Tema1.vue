@@ -11,7 +11,7 @@
       .row.align-items-center
         .col-lg-7.mb-5.mb-lg-0
           .p-4
-            h5 Mercado cambiario
+            h4 Mercado cambiario
             p.mb-3 El mercado cambiario estará constituido por la totalidad de las divisas que deban ser transferidas o negociadas por conducto de los intermediarios que se autoricen en desarrollo de esta Ley. El Gobierno Nacional fijará las normas tendientes a organizar y regular el funcionamiento de este mercado. Además, establecerá las operaciones de cambio cuyo producto en moneda extranjera no deba ser transferido o negociado a través del mercado cambiario y los mecanismos que podrán utilizarse para la posesión o negociación de las divisas correspondientes en el país. 
     
             .cajon.color-custom.p-4
@@ -341,10 +341,22 @@
             .tarjeta.color-secundario
               .text-white.p-4
                 p.text-center <b>Financiación de operaciones de importación y exportación de bienes. </b>
-     
-      p.mb-3 Cumplimiento de obligaciones de los titulares de cuentas de compensación que canalicen operaciones de competencia de la DIAN. 
-
-      p Todas las demás operaciones del régimen cambiario cuya vigilancia y control no sea de competencia de otra entidad (competencia residual cambiaria).
+      .row.justify-content-center.mb-3
+            .col-md-6.col-lg-4.mb-5.mb-lg-0
+              .tarjeta-avatar
+                img(src='@/assets/curso/images/tema1/ico_20.svg' alt='AvatarTop', style="width:120px; display:block; margin:auto 0;")
+              
+                .tarjeta.color-secundario
+                  .text-white.p-4
+                    p.text-center <b>Cumplimiento de obligaciones de los titulares de cuentas de compensación que canalicen operaciones de competencia de la DIAN.</b>
+       
+            .col-md-6.col-lg-4.mb-5.mb-lg-0
+              .tarjeta-avatar
+                img(src='@/assets/curso/images/tema1/ico_21.svg' alt='AvatarTop', style="width:120px; display:block; margin:auto 0;")
+                
+                .tarjeta.color-secundario
+                  .text-white.p-4
+                    p.text-center <b>Todas las demás operaciones del régimen cambiario cuya vigilancia y control no sea de competencia de otra entidad (competencia residual cambiaria).</b>
 
     p.mb-5 También la DIAN realiza vigilancia y control sobre algunas operaciones que no son de obligatoria canalización y que son de libre tenencia, posesión y negociación dentro de lo estipulado por el régimen cambiario colombiano, tal como se registra en los siguientes cuadros.
 
