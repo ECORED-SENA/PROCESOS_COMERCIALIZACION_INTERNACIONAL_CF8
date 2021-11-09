@@ -237,22 +237,21 @@
    
     #t_1_4.titulo-segundo
       .h4 1.4 Declaraciones de cambio   
-    .row.align-items-center
-      p.mb-5 Son los diferentes formatos que se deben utilizar al efectuar algún tipo de operación cambiaria, para informar a las entidades pertinentes sobre la transacción realizada. Para una definición más técnica, nos remitimos al capítulo IV, artículo 88 “Información Cambiaria y Otras Obligaciones”, contenido en la Resolución Externa  1 de 2018:
+    
+    p.mb-5 Son los diferentes formatos que se deben utilizar al efectuar algún tipo de operación cambiaria, para informar a las entidades pertinentes sobre la transacción realizada. Para una definición más técnica, nos remitimos al capítulo IV, artículo 88 “Información Cambiaria y Otras Obligaciones”, contenido en la Resolución Externa  1 de 2018:
 
-      .row.fondo-3.mb-5.p-4(data-aos="fade-left")
-        .col-lg-5.mb-5.mb-lg-0
-            img(src="@/assets/curso/images/tema1/img_10.svg" alt="",)
-        .col-lg-7.mb-5.mb-lg-0
-          .col-sm.mb-5.mb-sm-0.fondo-4.p-4
-            .bloque-texto-b.p-4.mb-3
-                .bloque-texto-b__texto
-                  i.fas.fa-quote-left
-                  p <b>La declaración de cambio es la información de los datos mínimos de las operaciones de cambio canalizadas por conducto del mercado cambiario, suministrada por los residentes y no residentes que realizan las operaciones de cambio y transmitida al Banco de la República por los intermediarios del mercado cambiario y los titulares de cuentas de compensación. </b>
-                  i.fas.fa-quote-right
-            p.mb-3 En estas declaraciones se deben reportar los datos mínimos que exige el Banco de la República y la Dian, contenidos en formatos establecidos por los intermediarios del mercado cambiario o en formularios del Banco de la República, que pueden tener fines estadísticos o de vigilancia y control, y en los cuales se reporta la información sobre montos, características y demás condiciones de la operación, que se celebra a través del mercado cambiario. 
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-6.mx-0.mb-lg-0.p-0
+          img(src="@/assets/curso/images/tema1/img_10.svg" alt="",)
+      .col-lg-6.mx-0.mb-lg-0.fondo-4.p-4.mt-5
+          .bloque-texto-b.p-4.mb-3
+              .bloque-texto-b__texto
+                i.fas.fa-quote-left
+                p <b>La declaración de cambio es la información de los datos mínimos de las operaciones de cambio canalizadas por conducto del mercado cambiario, suministrada por los residentes y no residentes que realizan las operaciones de cambio y transmitida al Banco de la República por los intermediarios del mercado cambiario y los titulares de cuentas de compensación. </b>
+                i.fas.fa-quote-right
+          p.mb-3 En estas declaraciones se deben reportar los datos mínimos que exige el Banco de la República y la Dian, contenidos en formatos establecidos por los intermediarios del mercado cambiario o en formularios del Banco de la República, que pueden tener fines estadísticos o de vigilancia y control, y en los cuales se reporta la información sobre montos, características y demás condiciones de la operación, que se celebra a través del mercado cambiario. 
 
-            p Igualmente, al realizar una operación ante los profesionales de compra y venta de divisas se diligencia una declaración de cambio (mercado libre). 
+          p Igualmente, al realizar una operación ante los profesionales de compra y venta de divisas se diligencia una declaración de cambio (mercado libre). 
          
     
     .row.align-items-center.mb-5
