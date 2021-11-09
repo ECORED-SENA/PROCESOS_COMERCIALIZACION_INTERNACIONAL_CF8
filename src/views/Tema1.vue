@@ -15,7 +15,7 @@
             p.mb-3 El mercado cambiario estará constituido por la totalidad de las divisas que deban ser transferidas o negociadas por conducto de los intermediarios que se autoricen en desarrollo de esta Ley. El Gobierno Nacional fijará las normas tendientes a organizar y regular el funcionamiento de este mercado. Además, establecerá las operaciones de cambio cuyo producto en moneda extranjera no deba ser transferido o negociado a través del mercado cambiario y los mecanismos que podrán utilizarse para la posesión o negociación de las divisas correspondientes en el país. 
     
             .cajon.color-custom.p-4
-              .h5 Parágrafo.
+              .h5 Parágrafo
               p.mb-0 Los ingresos de divisas por concepto de servicios prestados por residentes en el país, quedarán exentos de la obligación de ser transferidos o negociados a través de mercado cambiario.
 
         .col-lg-5.pt-4.align-self-end
@@ -46,7 +46,7 @@
           br
           span Operaciones sujetas al régimen cambiario
 
-    p.mb-5 El Gobierno Nacional determinará las distintas operaciones de cambio que estarán sujetas a lo previsto en esta ley, con base en ls siguientes categorias (Artículo 4° Ley 9 de 1991) 
+    p.mb-5 El Gobierno Nacional determinará las distintas operaciones de cambio que estarán sujetas a lo previsto en esta ley, con base en las siguientes categorias (Artículo 4° Ley 9 de 1991) 
     .row.mx-0.mb-5
       .col-md-6.col-xl-3.px-0.mb-xl-0
         .tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
@@ -112,7 +112,7 @@
               img(src='@/assets/curso/images/tema1/ico_10.svg', alt="")
             br
           .h2.text-center.text-white Artículo 83º
-          p.text-center.text-white PROHIBICIÓN DE OPERACIONES EN MONEDA EXTRANJERA en el país. Salvo lo dispuesto en normas especiales de la presente resolución, no está autorizada la realización de depósitos o de cualquier otra operación financiera en moneda extranjera o, en general, de cualquier contrato o convenio entre residentes en moneda extranjera mediante la utilización de las divisas de que trata este título.
+          p.text-center.text-white PROHIBICIÓN DE OPERACIONES EN MONEDA EXTRANJERA EN EL PAÍS. Salvo lo dispuesto en normas especiales de la presente resolución, no está autorizada la realización de depósitos o de cualquier otra operación financiera en moneda extranjera o, en general, de cualquier contrato o convenio entre residentes en moneda extranjera mediante la utilización de las divisas de que trata este título.
 
     #t_1_1.titulo-segundo
       .h4 1.1  Marco legal
@@ -253,7 +253,7 @@
             p.mb-3 En estas declaraciones se deben reportar los datos mínimos que exige el Banco de la República y la Dian, contenidos en formatos establecidos por los intermediarios del mercado cambiario o en formularios del Banco de la República, que pueden tener fines estadísticos o de vigilancia y control, y en los cuales se reporta la información sobre montos, características y demás condiciones de la operación, que se celebra a través del mercado cambiario. 
 
             p Igualmente, al realizar una operación ante los profesionales de compra y venta de divisas se diligencia una declaración de cambio (mercado libre). 
-    
+         
     
     .row.align-items-center.mb-5
       .row.fondo-5.mb-3
@@ -312,7 +312,7 @@
               h4.text-regular <b>Está  constituido por políticas de la autoridad monetaria implementadas a través del sistema monetario tendientes a controlar la compra y venta de moneda extranjera.</b>
               i.fas.fa-quote-right
             .bloque-texto-d__autor 
-              .h6.mb-0 Sepúlveda (p.55)
+              p.mb-0 Sepúlveda (p.55)
 
     p.mb-3 La Dirección de Impuestos y Aduanas Nacionales, DIAN, tiene la obligación de vigilar y controlar el cumplimiento de la normatividad cambiaria en las siguientes operaciones: 
 
@@ -411,7 +411,7 @@
         h5 Artículo 3° 
         p.mb-3 Se establece la forma de liquidar el valor de la sanción según la operación cambiaria que es objeto de infracción.
 
-        p.mb-3 Las sanciones por infracciones cambiarias que son competencia de la DIAN pueden ser determinadas tanto en Unidades de Valor Tributario (U.V.T) o en porcentajes (%) sobre el monto de la operación. realizada, 
+        p.mb-3 Las sanciones por infracciones cambiarias que son competencia de la DIAN pueden ser determinadas tanto en Unidades de Valor Tributario (U.V.T) o en porcentajes (%) sobre el monto de la operación realizada.
 
         p.mb-3 Las sanciones deberán ser pagadas en moneda legal colombiana y en caso de que la operación esté denominada en divisas, se utilizará la Tasa Representativa del Mercado (TRM) certificada y publicada por la Superintendencia Financiera de Colombia, para la fecha de ocurrencia del hecho constitutivo de infracción.
 
@@ -516,7 +516,7 @@
     #t_1_8.titulo-segundo
       .h4 1.8 Declaración de datos mínimos en exportaciones de bienes 
     .row
-      p.mb-5 Al realizar un proceso de exportación de bienes en el país, se debe presentar la información de datos mínimos (declaración de cambio) en exportaciones de bienes, la cual se encuentra establecida en el capítulo 3 de la Circular Reglamentaria  DCIN-83:
+      p.mb-5 Al realizar un proceso de exportación de bienes en el país, se debe presentar la información de datos mínimos (declaración de cambio) en exportaciones de bienes, la cual se encuentra establecida en el capítulo 4 de la Circular Reglamentaria  DCIN-83:
 
     .row.justify-content-center.align-items-center.mb-5  
         .col-lg-4.mb-3.mb-lg-0 
@@ -651,7 +651,7 @@ export default {
     ],
     datosSlyder: [
       {
-        titulo: '',
+        titulo: 'Importaciones de bienes',
         texto:
           'Los residentes deberán canalizar a través del mercado cambiario los pagos para cancelar el valor de sus importaciones. Para estos efectos, deben suministrar al IMC la información de los datos mínimos (Declaración de Cambio) de cada operación exigida en el numeral 3.5 de este Capítulo. Cuando la operación se canalice a través de cuentas de compensación el Formulario No. 10 “Registro, Informe de Movimientos y/o Cancelación Cuenta de Compensación” hará las veces de la declaración de cambio, el cual se transmitirá por el titular de la cuenta de compensación de acuerdo con los procedimientos señalados en el Capítulo 8 de esta Circular.',
         imagen: require('@/assets/curso/images/tema1/img_15.png'),
@@ -659,7 +659,7 @@ export default {
       {
         titulo: '',
         texto:
-          'Las divisas para el pago de la importación deberán ser canalizadas por quien efectuó la importación de bienes, y el pago deberá ser efectuado directamente al acreedor, su cesionario o a centros o personas que adelanten en el exterior la gestión de recaudo y/o pago internacional, se trate de residentes o no residentes. Los residentes no podrán canalizar pagos de importaciones que hayan sido realizadas por otros. Los documentos aduaneros deberán conservarse como soporte de la operación para cuando sean requeridos por las autoridades de control y vigilancia',
+          'Las divisas para el pago de la importación deberán ser canalizadas por quien efectuó la importación de bienes, y el pago deberá ser efectuado directamente al acreedor, su cesionario o a centros o personas que adelanten en el exterior la gestión de recaudo y/o pago internacional, se trate de residentes o no residentes. Los residentes no podrán canalizar pagos de importaciones que hayan sido realizadas por otros. Los documentos aduaneros deberán conservarse como soporte de la operación para cuando sean requeridos por las autoridades de control y vigilancia.',
         imagen: require('@/assets/curso/images/tema1/img_16.png'),
       },
     ],

@@ -137,7 +137,7 @@ export default {
       link: '',
     },
     {
-      referencia: 'Banco de la República. (2005). Sectores económicos. ',
+      referencia: 'Banco de la República. (2005). Sectores económicos.  ',
       link: 'http://www.banrepcultural.org',
     },
     {
@@ -268,41 +268,35 @@ export default {
   ],
   complementario: [
     {
-      texto:
-        'Banco de la República de Colombia https://www.banrep.gov.co/sites/default/files/paginas/cp91.pdf',
+      texto: 'Banco de la República de Colombia',
       tipo: 'Pdf',
       link: 'https://www.banrep.gov.co/sites/default/files/paginas/cp91.pdf ',
     },
     {
-      texto:
-        'Banco de la República de Colombia https://www.banrep.gov.co/sites/default/files/paginas/LEY09DE1991CONHIPERVINCULOS-1.pdf ',
+      texto: 'Banco de la República de Colombia',
       tipo: 'Pdf',
       link:
         'https://www.banrep.gov.co/sites/default/files/paginas/LEY09DE1991CONHIPERVINCULOS-1.pdf',
     },
     {
-      texto:
-        'Banco de la República de Colombia. https://www.banrep.gov.co/sites/default/files/reglamentacion/archivos/decreto119.pdf',
+      texto: 'Banco de la República de Colombia.',
       tipo: 'Pdf',
       link:
         'https://www.banrep.gov.co/sites/default/files/reglamentacion/archivos/decreto119.pdf',
     },
     {
-      texto:
-        'Banco de la República de Colombia. https://www.banrep.gov.co/sites/default/files/reglamentacion/compendio-res-ext-1-de-2018.pdf ',
+      texto: 'Banco de la República de Colombia. ',
       tipo: 'Pdf',
       link:
         'https://www.banrep.gov.co/sites/default/files/reglamentacion/compendio-res-ext-1-de-2018.pdf',
     },
     {
-      texto:
-        'Banco de la República de Colombia.  https://www.banrep.gov.co/es/compendio-dcin83 ',
+      texto: 'Banco de la República de Colombia.',
       tipo: 'Pdf',
       link: 'https://www.banrep.gov.co/es/compendio-dcin83',
     },
     {
-      texto:
-        'Juriscol https://www.suin-juriscol.gov.co/viewDocument.asp?id=1424757',
+      texto: 'Juriscol ',
       tipo: 'Página web',
       link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=1424757',
     },
