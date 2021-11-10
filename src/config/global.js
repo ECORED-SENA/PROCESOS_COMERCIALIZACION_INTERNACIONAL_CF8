@@ -173,7 +173,7 @@ export default {
     },
     {
       referencia:
-        'Uribe, J.D. (2010) <i>“10 Years of Flexible Inflation Targeting in Colombia” </i>',
+        'Uribe, J.D. (2010) <i>“10 Years of Flexible Inflation Targeting in Colombia. ” </i>',
       link:
         'https://www.banrep.gov.co/sites/default/files/publicaciones/archivos/jdu_abr_2010_0.pdf',
     },
@@ -268,51 +268,59 @@ export default {
   ],
   complementario: [
     {
-      texto: 'Banco de la República de Colombia',
+      texto:
+        'Constitución Política de Colombia 1991. [Const]. Banco de la República de Colombia. (Colombia)',
       tipo: 'Pdf',
       link: 'https://www.banrep.gov.co/sites/default/files/paginas/cp91.pdf ',
     },
     {
-      texto: 'Banco de la República de Colombia',
+      texto:
+        'Ley 9 de 1991. Por la cual se dictan normas generales a las que deberá sujetarse el Gobierno Nacional para regular los cambios internacionales y se adoptan medidas complementarias. Enero 19 de 2005.',
       tipo: 'Pdf',
       link:
         'https://www.banrep.gov.co/sites/default/files/paginas/LEY09DE1991CONHIPERVINCULOS-1.pdf',
     },
     {
-      texto: 'Banco de la República de Colombia.',
+      texto:
+        'Decreto 119 de 2017. [Ministerio de Hacienda y Crédito Público]. Por el cual se modifica el Decreto 1068 de 2015 en lo relacionado con el régimen general de la inversión de capitales del exterior en Colombia y de las inversiones colombianas en el exterior y se dictan otras disposiciones en materia de cambios internacionales. Enero 26 de 2017.',
       tipo: 'Pdf',
       link:
         'https://www.banrep.gov.co/sites/default/files/reglamentacion/archivos/decreto119.pdf',
     },
     {
-      texto: 'Banco de la República de Colombia. ',
+      texto:
+        'Resolución Externa 1 de 2018. [Banco de la República de Colombia]. Por la cual se compendia y modifica el régimen de cambios internacionales. Mayo 25 de 2018.',
       tipo: 'Pdf',
       link:
-        'https://www.banrep.gov.co/sites/default/files/reglamentacion/compendio-res-ext-1-de-2018.pdf',
+        'https://www.banrep.gov.co/sites/default/files/reglamentacion/compendio-res-ext-1-de-2018.pdf ',
     },
     {
-      texto: 'Banco de la República de Colombia.',
-      tipo: 'Pdf',
+      texto:
+        'Circular Reglamentaria DCIN-83 vigente hasta el 31 de agosto de 202. Banco de la República de Colombia. ',
+      tipo: 'Página web',
       link: 'https://www.banrep.gov.co/es/compendio-dcin83',
     },
     {
-      texto: 'Juriscol ',
+      texto:
+        'Decreto 2245 de 2011. [Ministerio de Justicia]. Por el cual se establece el Régimen Sancionatorio y el Procedimiento Administrativo Cambiario a seguir por la Dirección de Impuestos y Aduanas Nacionales. Junio 28 de 2011',
       tipo: 'Página web',
       link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=1424757',
     },
     {
       texto:
-        'Decreto 390 DE 2016 [Ministerio de Comercio, Industria y Turismo]. Por el cual se establece la regulación aduanera. 07 de marzo de 2016',
-      tipo: 'Presentación',
-      descarga: 'downloads/Anexo_1.pdf',
+        'Decreto 390 de 2016 [Ministerio de Comercio, Industria y Turismo]. Por el cual se establece la regulación aduanera. Marzo 07 de 2016.',
+      tipo: 'Formulario',
+      link: 'downloads/Anexo_1.pdf',
     },
     {
-      texto: '(Banco de la República, 2021)',
+      texto:
+        'Formulario N° 1 - Declaración de cambio por importaciones de bienes. Circular Reglamentaria Externa DCIN-83. Agosto 09 de 2011. (Banco de la República, 2021).',
       tipo: 'Formulario',
       link: 'downloads/Anexo_2.pdf',
     },
     {
-      texto: '(Banco de la República, 2021)',
+      texto:
+        'Formulario N° 2 - Declaración de cambio por exportaciones de bienes. Circular Reglamentaria Externa DCIN-83. Febrero 24 de 2011. (Banco de la República, 2021).',
       tipo: 'Formulario',
       link: 'downloads/Anexo_3.pdf',
     },

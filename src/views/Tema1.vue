@@ -609,8 +609,8 @@ export default {
   data: () => ({
     datosLineaTiempoB: [
       {
-        titulo: '',
-        texto: 'Importación y exportación de bienes.',
+        titulo: 'Importación y exportación de bienes.',
+        texto: '',
         icono: require('@/assets/curso/images/tema1/ico_1.svg'),
       },
       {
