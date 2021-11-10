@@ -157,6 +157,7 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Figura 2
+          br
           span Jerarquía normas régimen cambiario colombiano
 
     .row.justify-content-center.align-items-center

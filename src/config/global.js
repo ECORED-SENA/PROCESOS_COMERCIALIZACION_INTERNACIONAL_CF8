@@ -173,7 +173,7 @@ export default {
     },
     {
       referencia:
-        'Uribe, J.D. (2010) <i>“10 Years of Flexible Inflation Targeting in Colombia. ” </i>',
+        'Uribe, J.D. (2010) <i>“10 Years of Flexible Inflation Targeting in Colombia”.  </i>',
       link:
         'https://www.banrep.gov.co/sites/default/files/publicaciones/archivos/jdu_abr_2010_0.pdf',
     },
